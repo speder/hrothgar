@@ -1,0 +1,3 @@
+= Hrothgar
+
+This project hroths and uses MIT-LICENSE.

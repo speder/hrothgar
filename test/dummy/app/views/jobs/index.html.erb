@@ -1,0 +1,9 @@
+<%= form_tag(jobs_path) do |f| %>
+  <span class="field">
+    <label>Name</label>
+    <%= text_field_tag :name, nil, :autocomplete => 'off' %>
+  </span>
+  <span class="actions">
+    <%= submit_tag 'Run' %>
+  </span>
+<% end %>
