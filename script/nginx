@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# use this script to create a symlink
+# to the root of this app
+# and (re)start nginx
+
 # point symlink to current app root
 root=$(cd test/dummy && pwd -P)
 link=/usr/local/nginx/html/http_push
